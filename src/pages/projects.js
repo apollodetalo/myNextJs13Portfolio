@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import ShopJungle from "../../public/images/projects/ShopJungle.jpg";
+import ecomstore from "../../public/images/projects/ecomstore.jpg";
 import construction from "../../public/images/projects/under-construction.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -147,7 +147,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Ecommerce Store Project (WebJungle)"
-                img={ShopJungle}
+                img={ecomstore}
                 summary="Built with HTML, CSS, Javascript, React JS, MongoDB, and Node JS "
                 link="https://shopjungle.netlify.app/"
                 type="Ongoing Project"
