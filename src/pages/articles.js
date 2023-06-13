@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import article1 from "../../public/images/articles/Backend.jpg";
-import article2 from "../../public/images/articles/Frontend.jpg";
+import Backend from "../../public/images/articles/Backend.jpg";
+import Frontend from "../../public/images/articles/Frontend.jpg";
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
@@ -128,7 +128,7 @@ const articles = () => {
               Specialized in client-side (front-end) and server-side (back-end) technologies required to create a complete and functional web application."
               time="View"
               link="http://share.zertify.zuitt.co/certificate/324ab5c9-8390-4381-b23b-85e313b0df8e"
-              img={article1} // Represents an Image imported above
+              img={Backend} // Represents an Image imported above
             />
 
             <FeaturedArticle
@@ -137,7 +137,7 @@ const articles = () => {
               Focuses on the server-side of web applications, handling the logic, data, and infrastructure that powers the application."
               time="View"
               link="https://share.zertify.zuitt.co/certificate/dff6ce62-2efc-4cc1-a158-58f7da8c28b3/"
-              img={article2} //Represents an Image imported above
+              img={Frontend} //Represents an Image imported above
             />
           </ul>
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
