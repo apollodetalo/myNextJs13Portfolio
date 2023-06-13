@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import article1 from "../../public/images/articles/soon.jpg";
-import article2 from "../../public/images/articles/soon.jpg";
+import article1 from "../../public/images/articles/Backend.jpg";
+import article2 from "../../public/images/articles/Frontend.jpg";
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
@@ -121,18 +121,22 @@ const articles = () => {
 
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Full-Stack Web Development"
-              summary="Specialized in client-side (front-end) and server-side (back-end) technologies required to create a complete and functional web application.."
+              title="Backend Certificate"
+              summary="
+              Core: Javascript, MonggoDB, Node.js , Express.js, and Postman.
+              
+              Specialized in client-side (front-end) and server-side (back-end) technologies required to create a complete and functional web application."
               time="View"
-              link="/"
+              link="http://share.zertify.zuitt.co/certificate/324ab5c9-8390-4381-b23b-85e313b0df8e"
               img={article1} // Represents an Image imported above
             />
 
             <FeaturedArticle
-              title="Backend Web Development"
-              summary="Focuses on the server-side of web applications, handling the logic, data, and infrastructure that powers the application. Backend developers work with server-side languages, databases, and frameworks to build the underlying functionality of a web application.."
+              title="Frontend Certificate"
+              summary="Core: HTML, CSS, Bootstrap 5, and Git. 
+              Focuses on the server-side of web applications, handling the logic, data, and infrastructure that powers the application."
               time="View"
-              link="/"
+              link="https://share.zertify.zuitt.co/certificate/dff6ce62-2efc-4cc1-a158-58f7da8c28b3/"
               img={article2} //Represents an Image imported above
             />
           </ul>
