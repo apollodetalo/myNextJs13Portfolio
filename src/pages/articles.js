@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import Backend from "/../public/images/articles/Backend.jpg";
-import Frontend from "/../public/images/articles/Frontend.jpg";
+import Backend from "../../public/images/articles/Backend.jpg";
+import Frontend from "../../public/images/articles/Frontend.jpg";
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
 
 import TransitionEffect from "@/components/TransitionEffect";
