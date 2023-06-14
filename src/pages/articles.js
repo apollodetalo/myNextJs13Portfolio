@@ -152,31 +152,17 @@ const articles = () => {
             />
 
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 15, 2023"
+              title="Backend - handle tasks such as data storage and retrieval, server configuration, implementing business logic, handling user authentication and authorization, and processing requests from the frontend. "
+              date="June 09, 2023"
               link="/"
-              img={article4} //Represents an Image imported above
+              img={Backend} //Represents an Image imported above
             />
 
             <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 15, 2023"
+              title="Frondend - involves working with web technologies such as HTML (Hypertext Markup Language) for structuring the content, CSS (Cascading Style Sheets) for styling and layout, and JavaScript for adding interactivity and functionality. "
+              date="May 20, 2023"
               link="/"
-              img={article5} //Represents an Image imported above
-            />
-
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 15, 2023"
-              link="/"
-              img={article3} //Represents an Image imported above
-            />
-
-            <Article
-              title="Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              date="June 15, 2023"
-              link="/"
-              img={article3} //Represents an Image imported above
+              img={Frontend} //Represents an Image imported above
             />
           </ul>
         </Layout>
