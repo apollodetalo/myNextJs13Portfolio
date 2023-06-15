@@ -76,7 +76,7 @@ const Experience = () => {
             position="Porting Specialist"
             company="Sprint"
             companyLink="https://www.t-mobile.com/"
-            time="2022-Present"
+            time="Oct 2018 - July 2021"
             address="USA (remote)"
             work="
 As a porting specialist for Sprint, now T-Mobile, my role involves facilitating the seamless transition of customer phone numbers from other carriers to the Sprint/T-Mobile network. I specialize in the complex process of porting, ensuring that customers can keep their existing phone numbers while switching service providers. ."

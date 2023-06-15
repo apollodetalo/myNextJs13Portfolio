@@ -30,7 +30,7 @@ const Skills = () => {
       lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]
       lg:bg-circularLightLg lg:dark:bg-circularDarkLg
       md:bg-circularLightMd md:dark:bg-circularDarkMd
-      sm:bg-circularLightSm sm:dark:bg-circularDarkSm
+      sm:bg-circularLightSm sm:dark:bg-circularDarkSm hover:bg-nvidia
       "
       >
         <motion.div
@@ -41,18 +41,28 @@ const Skills = () => {
           Web
         </motion.div>
 
-        <Skill name="HTML" x="-18vw" y="2vw" />
-        <Skill name="CSS" x="-5vw" y="-10vw" />
-        <Skill name="Javascript" x="17vw" y="6vw" />
-        <Skill name="ReactJS" x="0vw" y="12vw" />
-        <Skill name="NextJS" x="-20vw" y="-15vw" />
-        <Skill name="git" x="15vw" y="-12vw" />
-        <Skill name="NodeJS" x="27vw" y="-5vw" />
+        <Skill name="HTML 5" x="-7vw" y="2vw" />
+        <Skill name="Tailwind CSS" x="-20vw" y="-15vw" />
+        <Skill name="CSS" x="-2vw" y="-10vw" />
+        <Skill name="Javascript" x="4vw" y="6vw" />
+        <Skill name="React.js" x="0vw" y="12vw" />
+        <Skill name="Next.js" x="-12vw" y="-5vw" />
+        <Skill name="Git" x="15vw" y="-12vw" />
+        <Skill name="Node.js" x="27vw" y="-5vw" />
+        <Skill name="VSCODE" x="27vw" y="-5vw" />
         <Skill name="Figma" x="0vw" y="-20vw" />
-        <Skill name="PHP" x="19vw" y="22vw" />
-        <Skill name="Bootstrap" x="-18vw" y="15vw" />
-        <Skill name="NoSQL" x="-5vw" y="24vw" />
-        <Skill name="MongoDB" x="10vw" y="18vw" />
+        <Skill name="PHP" x="10vw" y="19vw" />
+        <Skill name="Postman" x="21vw" y="22vw" />
+        <Skill name="Bootstrap" x="-25vw" y="-1vw" />
+        <Skill name="Netlify" x="-8vw" y="15vw" />
+        <Skill name="NoSQL" x="-15vw" y="10vw" />
+        <Skill name="Canva" x="-9vw" y="24vw" />
+
+        <Skill name="MongoDB" x="15vw" y="1vw" />
+        <Skill name="Express.js" x="10vw" y="10vw" />
+        <Skill name="Gitlab" x="19vw" y="14vw" />
+        <Skill name="GitHub" x="-30vw" y="15vw" />
+        <Skill name="Express.js" x="10vw" y="10vw" />
       </div>
     </>
   );

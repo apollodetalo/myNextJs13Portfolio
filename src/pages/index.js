@@ -38,10 +38,11 @@ export default function Home() {
                 className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                Aspiring and self-motivated developer passionate about creating
+                customized interfaces that prioritize accessibility,
+                responsiveness, and security. Organized and adept at meeting
+                simultaneous deadlines. Actively stays up to date with
+                technology trends to implement best practices in web design.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
@@ -57,7 +58,7 @@ export default function Home() {
                 <Link
                   href="mailto:apollodetalo90@gmail.com"
                   target={"_blank"}
-                  className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
+                  className="hover:text-nvidia ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
                 </Link>
@@ -72,7 +73,7 @@ export default function Home() {
             alt="Apollo Detalo"
             className="w-full h-auto"
           />
-          <p className="text-center text-loadinggreen ">let&#39;s go!</p>
+          <p className="text-center dark:text-loadinggreen ">let&#39;s go!</p>
         </div>
       </main>
     </>
