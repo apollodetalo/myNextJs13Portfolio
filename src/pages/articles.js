@@ -5,10 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import Complete from "../../public/images/articles/Certificate of Completion.png";
-import FullStack from "../../public/images/articles/Full-Stack.png";
-import BackEnd from "../../public/images/articles/Back-End.png";
-import FrontEnd from "../../public/images/articles/Front-End.png";
+import Complete from "../../public/images/articles/Completion.webp";
+import FullStack from "../../public/images/articles/Full-Stack.webp";
+import BackEnd from "../../public/images/articles/Back-End.webp";
+import FrontEnd from "../../public/images/articles/Front-End.webp";
 
 
 import TransitionEffect from "@/components/TransitionEffect";
