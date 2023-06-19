@@ -54,21 +54,32 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&#39;m Apollo, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. I am always looking for new and innovative
-                ways to bring my client&#39;s visions to life.
+                I graduated with a degree in computer engineering, but for
+                various reasons, similar to many others here in the Philippines,
+                I ended up working in a different field after
+                graduation—specifically, the BPO (Business Process Outsourcing)
+                industry. In this role, I provided customer service and assisted
+                numerous clients, primarily from the United States. I handled
+                various voice accounts until I eventually became a freelancer
+                during the pandemic. As a freelancer, I worked as an UberEats
+                Lead Generator, gathering leads and other relevant information
+                by browsing different business websites.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty it&#39;s about solving problems and creating intuitive,
-                enjoyable experiences for users.
+                During this time, my curiosity and interest in website
+                development grew significantly, and my passion for coding
+                reached new heights. I started watching practical web
+                development tutorials on YouTube, and eventually, I made the
+                decision to enroll in a coding bootcamp that offered a
+                comprehensive and up-to-date curriculum, covering everything
+                from the basics to advanced topics. I successfully earned a
+                Full-Stack Web Development certificate from Zuitt Coding
+                Bootcamp, which focused on Frontend, Backend, server-side APIs,
+                and website deployment.
               </p>
               <p className="font-medium">
-                Whether I&#39;m working on a website, or on a backend side, I
-                bring my commitment to design excellence and user-centered
-                thinking to every project I work on. I look forward to the
-                opportunity to bring my skills and passion to your next project.
+                Currently, I am eager to improve my skills and continuously
+                learn in order to provide the best services possible.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">

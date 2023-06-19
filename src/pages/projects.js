@@ -5,6 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import ecomstore from "../../public/images/projects/ecom.png";
+import carento from "../../public/images/projects/carento.jpg";
 import construction from "../../public/images/projects/under-construction.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -146,6 +147,17 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
             <div className="col-span-12">
               <FeaturedProject
+                title="Car Renting Website (Carento)"
+                img={carento}
+                summary="Built with React, Next JS 13, TypeScript, Tailwind CSS"
+                link="https://carento.netlify.app/"
+                type="Ongoing Project"
+                github="https://github.com/apollodetalo/carento"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
                 title="Ecommerce Store Project (WebJungle)"
                 img={ecomstore}
                 summary="Built with HTML, CSS, Javascript, React JS, MongoDB, and Node JS "
@@ -154,6 +166,7 @@ const projects = () => {
                 github="https://github.com/apollodetalo/WebJungle"
               />
             </div>
+
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
@@ -168,7 +181,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Project will be added soon"
                 img={construction}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
@@ -181,7 +194,7 @@ const projects = () => {
 
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Project will be added soon"
                 img={construction}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
@@ -193,7 +206,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Project will be added soon"
                 img={construction}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
@@ -205,7 +218,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="Project will be added soon"
                 img={construction}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
