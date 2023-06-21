@@ -78,8 +78,10 @@ const about = () => {
                 and website deployment.
               </p>
               <p className="font-medium">
-                Currently, I am eager to improve my skills and continuously
-                learn in order to provide the best services possible.
+                Currently, I am making the most of my time by testing codes,
+                learning new things through examining other people's code, and
+                debugging. I am constantly improving my skills and continuously
+                learning in order to provide the best services possible.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">

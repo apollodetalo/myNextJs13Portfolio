@@ -48,21 +48,22 @@ const Skills = () => {
         <Skill name="React.js" x="0vw" y="12vw" />
         <Skill name="Next.js" x="-12vw" y="-5vw" />
         <Skill name="Git" x="15vw" y="-12vw" />
-        <Skill name="Node.js" x="27vw" y="-5vw" />
+        <Skill name="Node.js" x="12vw" y="-5vw" />
         <Skill name="VSCODE" x="27vw" y="-5vw" />
         <Skill name="Figma" x="0vw" y="-20vw" />
         <Skill name="PHP" x="10vw" y="19vw" />
         <Skill name="Postman" x="21vw" y="22vw" />
         <Skill name="Bootstrap" x="-25vw" y="-1vw" />
         <Skill name="Netlify" x="-8vw" y="15vw" />
+        <Skill name="Vercel" x="-1vw" y="19vw" />
         <Skill name="NoSQL" x="-15vw" y="10vw" />
         <Skill name="Canva" x="-9vw" y="24vw" />
 
         <Skill name="MongoDB" x="15vw" y="1vw" />
-        <Skill name="Express.js" x="10vw" y="10vw" />
+        <Skill name="Express.js" x="21vw" y="10vw" />
         <Skill name="Gitlab" x="19vw" y="14vw" />
         <Skill name="GitHub" x="-30vw" y="15vw" />
-        <Skill name="Express.js" x="10vw" y="10vw" />
+        <Skill name="SublimeText" x="10vw" y="10vw" />
       </div>
     </>
   );
