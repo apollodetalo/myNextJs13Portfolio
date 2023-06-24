@@ -6,6 +6,7 @@ import Link from "next/link";
 import React from "react";
 import ecomstore from "../../public/images/projects/ecom.png";
 import carento from "../../public/images/projects/carento.png";
+import quantum from "../../public/images/projects/shirt.jpg";
 import construction from "../../public/images/projects/under-construction.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -145,6 +146,17 @@ const projects = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
+            <div className="col-span-12">
+              <FeaturedProject
+                title="AI-Generated 3D Website (QUANTUM T-SHIRTS)"
+                img={quantum}
+                summary="AI Powered 3D Website | Built with React, Next JS 13, Tailwind CSS"
+                link="https://quantumt-shirts.netlify.app/"
+                type="Ongoing Project"
+                github="https://github.com/apollodetalo/QuantumT-shirt-Website"
+              />
+            </div>
+
             <div className="col-span-12">
               <FeaturedProject
                 title="Car Renting Website (Carento)"
