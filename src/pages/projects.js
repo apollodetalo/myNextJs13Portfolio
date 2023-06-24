@@ -6,7 +6,7 @@ import Link from "next/link";
 import React from "react";
 import ecomstore from "../../public/images/projects/ecom.png";
 import carento from "../../public/images/projects/carento.png";
-import quantum from "../../public/images/projects/shirt.jpg";
+import quantum from "../../public/images/projects/shirt.png";
 import construction from "../../public/images/projects/under-construction.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
