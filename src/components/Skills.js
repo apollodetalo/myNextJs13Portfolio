@@ -43,7 +43,7 @@ const Skills = () => {
 
         <Skill name="HTML 5" x="-7vw" y="2vw" />
         <Skill name="Tailwind CSS" x="-20vw" y="-15vw" />
-        <Skill name="CSS" x="-2vw" y="-10vw" />
+        <Skill name="CSS" x="-2vw" y="-12vw" />
         <Skill name="Javascript" x="4vw" y="6vw" />
         <Skill name="React.js" x="0vw" y="12vw" />
         <Skill name="Next.js" x="-12vw" y="-5vw" />
@@ -64,6 +64,7 @@ const Skills = () => {
         <Skill name="Gitlab" x="19vw" y="14vw" />
         <Skill name="GitHub" x="-30vw" y="15vw" />
         <Skill name="SublimeText" x="10vw" y="10vw" />
+        <Skill name="C-R-U-D" x="1vw" y="-7vw" />
       </div>
     </>
   );
