@@ -190,7 +190,7 @@ bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 "
             />
             <CustomMobileLink
               href="/articles"
-              title="Articles"
+              title="Certificates"
               className=""
               toggle={handleClick}
             />

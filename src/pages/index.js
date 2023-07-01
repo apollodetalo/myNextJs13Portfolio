@@ -34,9 +34,9 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Apollo Detalo
-                MERN Stack Web Developer"
-                className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                text="Apollo Detalo 
+                MERN-Stack Developer"
+                className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-2xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Aspiring and self-motivated developer passionate about creating
