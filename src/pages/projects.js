@@ -5,6 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import ecomstore from "../../public/images/projects/ecom.png";
+import MERNApp from "../../public/images/projects/MERNApp.png";
 import carento from "../../public/images/projects/carento.png";
 import quantum from "../../public/images/projects/shirt.png";
 import construction from "../../public/images/projects/under-construction.png";
@@ -146,6 +147,17 @@ const projects = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ">
+            <div className="col-span-12">
+              <FeaturedProject
+                title="MERN Stack Application Authentication System"
+                img={MERNApp}
+                summary="MERN stack app with a React SPA frontend - JWT Authentication, Redux Toolkit, React"
+                link="/"
+                type="Ongoing Project"
+                github="/"
+              />
+            </div>
+
             <div className="col-span-12">
               <FeaturedProject
                 title="AI-Generated 3D Website (QUANTUM T-SHIRTS)"
