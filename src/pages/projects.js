@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import ecomstore from "../../public/images/projects/ecom.png";
-import MERN from "../../public/images/projects/MERN.jpg";
+import MERN from "../../public/images/projects/MERN.png";
 import carento from "../../public/images/projects/carento.png";
 import quantum from "../../public/images/projects/shirt.png";
 import construction from "../../public/images/projects/under-construction.png";
