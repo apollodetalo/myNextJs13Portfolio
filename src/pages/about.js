@@ -1,38 +1,38 @@
-import AnimatedText from "@/components/AnimatedText";
-import Layout from "@/components/Layout";
-import Head from "next/head";
-import React, { useEffect, useRef } from "react";
-import Image from "next/image";
-import profilePic from "../../public/images/profile/apollo.jpg";
-import { useMotionValue, useSpring, useInView } from "framer-motion";
-import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
-import Education from "@/components/Education";
-import TransitionEffect from "@/components/TransitionEffect";
+import AnimatedText from '@/components/AnimatedText'
+import Layout from '@/components/Layout'
+import Head from 'next/head'
+import React, { useEffect, useRef } from 'react'
+import Image from 'next/image'
+import profilePic from '../../public/images/profile/apollo.jpg'
+import { useMotionValue, useSpring, useInView } from 'framer-motion'
+import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
+import Education from '@/components/Education'
+import TransitionEffect from '@/components/TransitionEffect'
 
 const AnimatedNumbers = ({ value }) => {
-  const ref = useRef(null);
+  const ref = useRef(null)
 
-  const motionValue = useMotionValue(0);
-  const springValue = useSpring(motionValue, { duration: 3000 });
-  const isInView = useInView(ref, { once: true });
+  const motionValue = useMotionValue(0)
+  const springValue = useSpring(motionValue, { duration: 3000 })
+  const isInView = useInView(ref, { once: true })
 
   useEffect(() => {
     if (isInView) {
-      motionValue.set(value);
+      motionValue.set(value)
     }
-  }, [isInView, value, motionValue]);
+  }, [isInView, value, motionValue])
 
   useEffect(() => {
-    springValue.on("change", (latest) => {
+    springValue.on('change', (latest) => {
       if (ref.current && latest.toFixed(0) <= value) {
-        ref.current.textContent = latest.toFixed(0);
+        ref.current.textContent = latest.toFixed(0)
       }
-    });
-  }, [springValue, value]);
+    })
+  }, [springValue, value])
 
-  return <span ref={ref}></span>;
-};
+  return <span ref={ref}></span>
+}
 
 const about = () => {
   return (
@@ -70,19 +70,18 @@ const about = () => {
                 development grew significantly, and my passion for coding
                 reached new heights. I started watching practical web
                 development tutorials on YouTube, and eventually, I made the
-                decision to enroll in a coding bootcamp that offered a
-                comprehensive and up-to-date curriculum, covering everything
+                decision to enroll in a coding bootcamp that covers everything
                 from the basics to advanced topics. I successfully earned a
-                Full-Stack Web Development certificate from Zuitt Coding
-                Bootcamp, which focused on Frontend, Backend, server-side APIs,
-                and website deployment.
+                Full-Stack Web Development certificate from Zuitt Learning
+                Institute Inc., which focused on Frontend, Backend, server-side
+                APIs, and website deployment.
               </p>
               <p className="font-medium">
                 Currently, I am making the most of my time by testing codes,
                 learning new things through examining other people&#39;s code,
-                and debugging. I am constantly improving my skills and
-                continuously learning in order to provide the best services
-                possible.
+                and debugging. I know this is just a beginning that is why I am
+                constantly improving my skills and continuously learning while
+                keeping up with new trends in web tech industry.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
@@ -136,7 +135,7 @@ const about = () => {
         </Layout>
       </main>
     </>
-  );
-};
+  )
+}
 
-export default about;
+export default about

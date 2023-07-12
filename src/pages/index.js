@@ -36,7 +36,7 @@ export default function Home() {
               <AnimatedText
                 text="Apollo Detalo 
                 MERN-Stack Developer"
-                className="!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-2xl"
+                className="!text-6xl text-left xl:!text-6xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-2xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Aspiring and self-motivated developer passionate about creating
