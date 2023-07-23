@@ -43,7 +43,8 @@ export default function Home() {
                 customized interfaces that prioritize accessibility,
                 responsiveness, and security. Organized and adept at meeting
                 simultaneous deadlines. Actively stays up to date with
-                technology trends to implement best practices in web design.
+                technology trends to implement best practices in responsive web
+                designs.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
