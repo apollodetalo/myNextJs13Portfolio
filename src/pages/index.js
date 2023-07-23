@@ -1,14 +1,14 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from 'next/head'
+import Image from 'next/image'
 
-import Layout from "@/components/Layout";
-import profilePic from "../../public/images/profile/apollo.jpg";
-import lightBulb from "../../public/images/svgs/greenRocket.svg";
-import AnimatedText from "@/components/AnimatedText";
-import Link from "next/link";
-import { LinkArrow } from "@/components/Icons";
-import HireMe from "@/components/HireMe";
-import TransitionEffect from "@/components/TransitionEffect";
+import Layout from '@/components/Layout'
+import profilePic from '../../public/images/profile/apollo.jpg'
+import lightBulb from '../../public/images/svgs/greenRocket.svg'
+import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { LinkArrow } from '@/components/Icons'
+import HireMe from '@/components/HireMe'
+import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
   return (
@@ -47,18 +47,18 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/APOLLO DETALO - CV.pdf"
-                  target={"_blank"}
+                  href="/CV - Apollo Detalo.pdf"
+                  target={'_blank'}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-solid border-2 border-transparent hover:border-nvidia 
                   
                   dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:px-2 md:text-base "
                   download={true}
                 >
-                  Resume <LinkArrow className={"w-6 ml-1"} />
+                  Resume <LinkArrow className={'w-6 ml-1'} />
                 </Link>
                 <Link
                   href="mailto:apollodetalo90@gmail.com"
-                  target={"_blank"}
+                  target={'_blank'}
                   className="hover:text-nvidia ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
@@ -78,5 +78,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  );
+  )
 }
