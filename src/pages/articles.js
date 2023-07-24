@@ -1,35 +1,35 @@
-import AnimatedText from "@/components/AnimatedText";
-import Layout from "@/components/Layout";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import React, { useRef } from "react";
-import { motion, useMotionValue } from "framer-motion";
-import Complete from "../../public/images/articles/Completion.webp";
-import FullStack from "../../public/images/articles/Full-Stack.webp";
-import BackEnd from "../../public/images/articles/Back-End.webp";
-import FrontEnd from "../../public/images/articles/Front-End.webp";
+import AnimatedText from '@/components/AnimatedText'
+import Layout from '@/components/Layout'
+import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
+import React, { useRef } from 'react'
+import { motion, useMotionValue } from 'framer-motion'
+import Complete from '../../public/images/articles/Completion.webp'
+import FullStack from '../../public/images/articles/Full-Stack.webp'
+import BackEnd from '../../public/images/articles/Back-End.webp'
+import FrontEnd from '../../public/images/articles/Front-End.webp'
+import JavaScriptCert from '../../public/images/articles/javascriptCertificate.png'
 
+import TransitionEffect from '@/components/TransitionEffect'
 
-import TransitionEffect from "@/components/TransitionEffect";
-
-const FramerImage = motion(Image);
+const FramerImage = motion(Image)
 
 const MovingImg = ({ title, img, link }) => {
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-  const imgRef = useRef(null);
+  const x = useMotionValue(0)
+  const y = useMotionValue(0)
+  const imgRef = useRef(null)
 
   function handleMouse(event) {
-    imgRef.current.style.display = "inline-block";
-    x.set(event.pageX);
-    y.set(-10);
+    imgRef.current.style.display = 'inline-block'
+    x.set(event.pageX)
+    y.set(-10)
   }
 
   function handleMouseLeave(event) {
-    imgRef.current.style.display = "none";
-    x.set(0);
-    y.set(0);
+    imgRef.current.style.display = 'none'
+    x.set(0)
+    y.set(0)
   }
 
   return (
@@ -51,14 +51,14 @@ const MovingImg = ({ title, img, link }) => {
         className="z-10 w-96 h-auto hidden absolute rounded-lg md:!hidden"
       />
     </Link>
-  );
-};
+  )
+}
 
 const Article = ({ img, title, date, link }) => {
   return (
     <motion.li
       initial={{ y: 200 }}
-      whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
+      whileInView={{ y: 0, transition: { duration: 0.5, ease: 'easeInOut' } }}
       viewport={{ once: true }}
       className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light sm:flex-col"
     >
@@ -67,8 +67,8 @@ const Article = ({ img, title, date, link }) => {
         {date}
       </span>
     </motion.li>
-  );
-};
+  )
+}
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
@@ -101,8 +101,8 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
         </span>
       </Link>
     </li>
-  );
-};
+  )
+}
 
 const articles = () => {
   return (
@@ -161,6 +161,13 @@ const articles = () => {
               link="https://share.zertify.zuitt.co/certificate/dff6ce62-2efc-4cc1-a158-58f7da8c28b3/"
               img={FrontEnd} //Represents an Image imported above
             />
+            <FeaturedArticle
+              title="TestDome Javascript Test"
+              summary="Core: Javascript"
+              time="View"
+              link="https://www.testdome.com/certificates/6e07d54ee01a48ae91222c85ddda42df"
+              img={JavaScriptCert} //Represents an Image imported above
+            />
           </ul>
 
           <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
@@ -193,7 +200,7 @@ const articles = () => {
         </Layout>
       </main>
     </>
-  );
-};
+  )
+}
 
-export default articles;
+export default articles

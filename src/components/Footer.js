@@ -1,6 +1,6 @@
-import React from "react";
-import Layout from "./Layout";
-import Link from "next/link";
+import React from 'react'
+import Layout from './Layout'
+import Link from 'next/link'
 
 //Add website links later
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
 
         <div className="flex items-center lg:py-2">
-          Build with{" "}
+          Build with{' '}
           <span className="text-light dark:text-lime-500 text-2xl px-1">
             &#9825;
           </span>
@@ -18,23 +18,23 @@ const Footer = () => {
           <Link
             href="/"
             className="underline underline-offset-2"
-            target={"_blank"}
+            target={'_blank'}
           >
-            {" "}
+            {' '}
             Apollo Detalo
           </Link>
         </div>
 
         <Link
           href="mailto:apollodetalo90@gmail.com"
-          target={"_blank"}
+          target={'_blank'}
           className="underline underline-offset-2 hover:text-lime-500"
         >
-          email me
+          apollodetalo90@gmail.com
         </Link>
       </Layout>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
