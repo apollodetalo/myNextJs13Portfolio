@@ -9,7 +9,7 @@ import Complete from '../../public/images/articles/Completion.webp'
 import FullStack from '../../public/images/articles/Full-Stack.webp'
 import BackEnd from '../../public/images/articles/Back-End.webp'
 import FrontEnd from '../../public/images/articles/Front-End.webp'
-import JavaScriptCert from '../../public/images/articles/javascriptCertificate.png'
+import JavaScriptCert from '../../public/images/articles/javascriptCertificate.webp'
 
 import TransitionEffect from '@/components/TransitionEffect'
 
