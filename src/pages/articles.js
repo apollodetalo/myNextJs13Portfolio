@@ -10,6 +10,7 @@ import FullStack from '../../public/images/articles/Full-Stack.webp'
 import BackEnd from '../../public/images/articles/Back-End.webp'
 import FrontEnd from '../../public/images/articles/Front-End.webp'
 import JavaScriptCert from '../../public/images/articles/javascriptCertificate.webp'
+import PHP from '../../public/images/articles/php.jpg'
 
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -121,6 +122,14 @@ const articles = () => {
           />
 
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
+          <FeaturedArticle
+              title="Certificate of Completion for PHP"
+              summary="Successfully completed intensive I.T. Coding Bootcamp of Zuitt Learning Institute Incorporated"
+              time="View"
+              link="https://share.zertify.zuitt.co/certificate/94af139e-db73-44c1-bbc9-7192136debd7/"
+              img={PHP} // Represents an Image imported above
+            />
+
             <FeaturedArticle
               title="Certificate of Completion"
               summary="Successfully completed intensive I.T. Coding Bootcamp of Zuitt Learning Institute Incorporated"
